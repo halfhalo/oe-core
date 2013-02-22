@@ -103,7 +103,7 @@ build_iso() {
 			-r ${ISODIR}
 	fi
 
-	isohybrid ${DEPLOY_DIR_IMAGE}/${IMAGE_NAME}.iso
+	isohybrid -uefi ${DEPLOY_DIR_IMAGE}/${IMAGE_NAME}.iso
 
 	cd ${DEPLOY_DIR_IMAGE}
 	rm -f ${DEPLOY_DIR_IMAGE}/${IMAGE_LINK_NAME}.iso

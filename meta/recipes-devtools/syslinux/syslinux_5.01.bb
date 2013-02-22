@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=0636e73ff0215e8d672dc4c32c317bb3 \
 DEPENDS = "nasm-native"
 PR = "r8"
 
-SRC_URI = "${KERNELORG_MIRROR}/linux/utils/boot/syslinux/4.xx/syslinux-${PV}.tar.bz2 \
+SRC_URI = "${KERNELORG_MIRROR}/linux/utils/boot/syslinux/5.xx/syslinux-${PV}.tar.bz2 \
            file://cross-build.patch \
            file://no-strip.patch \
            file://libinstaller-Avoid-using-linux-ext2_fs.h.patch"

@@ -14,8 +14,8 @@ SRC_URI = "${KERNELORG_MIRROR}/linux/utils/boot/syslinux/5.xx/syslinux-${PV}.tar
            file://no-strip.patch \
            file://libinstaller-Avoid-using-linux-ext2_fs.h.patch"
 
-SRC_URI[md5sum] = "a7ca38a0a5786b6efae8fb01a1ae8070"
-SRC_URI[sha256sum] = "c65567e324f9d1f7f794ae8f9578a0292bbd47d7b8d895a004d2f0152d0bda38"
+SRC_URI[md5sum] = "6c21244277fa4e444967ba45469de863"
+SRC_URI[sha256sum] = "2e4955dfb1f58ed7a4f82f50fbc2ebd4ca18f8d8399803b033a74fdaf137a252"
 
 COMPATIBLE_HOST = '(x86_64|i.86).*-(linux|freebsd.*)'
 

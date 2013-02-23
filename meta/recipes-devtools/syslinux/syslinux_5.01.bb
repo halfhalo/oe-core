@@ -10,9 +10,7 @@ DEPENDS = "nasm-native"
 PR = "r8"
 
 SRC_URI = "${KERNELORG_MIRROR}/linux/utils/boot/syslinux/5.xx/syslinux-${PV}.tar.bz2 \
-           file://cross-build.patch \
-           file://no-strip.patch \
-           file://libinstaller-Avoid-using-linux-ext2_fs.h.patch"
+           file://no-strip.patch "
 
 SRC_URI[md5sum] = "6c21244277fa4e444967ba45469de863"
 SRC_URI[sha256sum] = "2e4955dfb1f58ed7a4f82f50fbc2ebd4ca18f8d8399803b033a74fdaf137a252"
